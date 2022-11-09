@@ -1,0 +1,23 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,77,48)
+  { LResult Label
+    MoveScaled(4,15,69,22)
+    Font = Font["+2"]
+    Alignment = Align.Center
+    Border = Border.Plain
+  }
+  { TBNum TextBox
+    MoveScaled(27,8,24,4)
+  }
+  { LFactura Label
+    MoveScaled(6,3,65,4)
+    Alignment = Align.Center
+    Text = ("Introduzca el número del que quieres saber sus 10 primeros múltiplos:")
+  }
+  { BCalcular Button
+    MoveScaled(31,41,16,4)
+    Text = ("Calcular")
+  }
+}
